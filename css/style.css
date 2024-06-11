@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gameboard{
+    width: 375px;
+    height: 768px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.bluesky{
+   width: 388px;
+   height: 768px;
+    margin-left: -8px;
+    margin-right: -4px;
+}
+.placar{
+    text-align: center;
+    line-height: 38px;
+    color: white;
+    width: 85px;
+    margin-left: 0px;
+    height: 38px;
+    background-image: url(../botoes/pontos.svg);
+    align-items: center;
+    margin-top: -871px;
+    position: absolute;
+}
+.vida{
+    text-align: center;
+    line-height: 38px;
+    color: white;
+    width: 85px;
+    margin-left: 0px;
+    height: 38px;
+    background-image: url(../botoes/vidas.svg);
+    align-items: center;
+    margin-top: -3px;
+    position: absolute;
+}
+.pts{
+    width: 80px;
+    position: absolute;
+    
+}
+
+.jogar1{
+    width: 200px;
+    margin-left: 87px;
+    position: absolute;
+    margin-top: -450px;
+}
+.loja{
+    width: 200px;
+    margin-left: 87px;
+    position: absolute;
+    margin-top: -350px;
+}
+
+.dia1{
+    font-size: 14pt;
+    color: rgb(128, 127, 127);
+    line-height: 114px;
+    text-align: center;
+    width: 0px;
+    height: 105px;
+    margin-left: 160px;
+    position: absolute;
+    margin-top: -290px;
+    background-image: url(../dialogo/pontos.png);
+
+}
+.dia2{
+    font-size: 15pt;
+    color: rgb(128, 127, 127);
+    line-height: 114px;
+    text-align: center;
+    width: 0px;
+    height: 105px;
+    margin-left: 160px;
+    position: absolute;
+    margin-top: -290px;
+    background-image: url(../dialogo/pontos.png);
+
+}
+.monkeyb{
+    width: 0px;
+    margin-left: 130px;
+    position: absolute;
+    margin-top: -200px;
+}
+.amarelo{
+    width: 0px;
+    margin-left: 130px;
+    position: absolute;
+    margin-top: -455px;
+}
+.amarelo2{
+    width: 0px;
+    margin-left: 157px ;
+    position: absolute;
+    margin-top: -130px;
+    top: 455px;
+    /*transition: top 6s linear;*/
+}
+
+.subir{
+        animation: balaosubindo 1s linear;
+}
+@keyframes balaosubindo {
+    from {
+        width: 100px;
+        margin-top : -455px
+    } to {
+        width: 100px;
+        margin-top: -910px;
+    }
+}
